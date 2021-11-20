@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../assets/fonts/SF-Pro-Display-Regular.woff2");
+}
+
+@font-face {
+  font-family: "SF Pro Icons";
+  src: url("../assets/fonts/SF-Pro-Icons-Regular.woff2");
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../assets/fonts/SF-Pro-Text-Regular.woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display SemiBold";
+  src: url("../assets/fonts/SF-Pro-Display-SemiBold.woff2");
+}
+
+@font-face {
+  font-family: "SF Pro Text SemiBold";
+  src: url("../assets/fonts/SF-Pro-Text-SemiBold.woff2");
+}
