@@ -70,6 +70,35 @@ nav.navbar {
   transform: translateX(3px);
 }
 
+ul.nav-menu li a {
+  opacity: 0.65;
+}
+
+ul.nav-menu li a:hover {
+  opacity: 1.0;
+  color: #ffffff;
+}
+
+.rotate {
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-delay: 2s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .navbar-logo {
   background-repeat: no-repeat;
   background-image: url(../assets/images/globalnav_apple_image__b5er5ngrzxqq_large-grey.svg);
